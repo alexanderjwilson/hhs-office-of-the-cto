@@ -28,9 +28,23 @@ module.exports = {
       },
     ],
     secondaryLinks: [
-      { text: 'U.S. Department of Health & Human Services',  endpoint: 'http://www.google.com'},
-       //link: '/' },
-      { text: 'Another secondary link', link: '/' },
+      
+      //start <a>
+      import React from "react"
+
+export default function Home() {
+  return (
+    <div>
+      <a href="https://hhs.gov" target="_blank" rel="noopener noreferrer">
+        U.S. Department of Health & Human Services
+      </a>
+    </div>
+  )
+}
+      //end <a>
+      
+      //{ text: 'U.S. Department of Health & Human Services', link: '/' },
+      //{ text: 'Another secondary link', link: '/' },
     ],
 
     // Search.gov configuration
