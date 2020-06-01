@@ -28,8 +28,8 @@ module.exports = {
       },
     ],
     secondaryLinks: [
-      { text: 'U.S. Department of Health & Human Services',  <a href="https://hhs.gov" target="_blank" rel="noopener noreferrer"/>},
-      { text: 'Another secondary link', link: '/' },
+      { text: 'U.S. Department of Health & Human Services',  link: '/' },
+      //{ text: 'Another secondary link', link: '/' },
     ],
 
     // Search.gov configuration
