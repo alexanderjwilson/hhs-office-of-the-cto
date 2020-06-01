@@ -1,22 +1,21 @@
 module.exports = {
   siteMetadata: {
     author: 'Foo',
-    title: `Agency Name`,
-    description: `Agency Name (EAC) Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    Aenean et sapien a leo auctor scelerisque quis nec magna. Sed dictum ante a risus vehicula facilisis.`,
+    title: `Office of the CTO`,
+    description: `Welcome to the Office of the Chief Technology Officer. We test and validate solutions to solve challenging problems in the delivery of health and human services. Located in the Immediate Office of the Secretary, the Office of the CTO is also tasked with promoting innovation across the entire department.`,
     navigation: [
       {
         items: [{ text: 'Home', link: '/' }],
       },
       {
+        items: [{ text: 'About', link: '/document' }],
+      },
+      {
         items: [{ text: 'Blog', link: '/blog' }],
       },
       {
-        items: [{ text: 'Document', link: '/document' }],
-      },
-      {
         items: [
-          { text: 'Document with sidenav', link: '/document-with-sidenav' },
+          { text: 'Initiatives', link: '/document-with-sidenav' },
         ],
       },
       {
@@ -29,7 +28,8 @@ module.exports = {
       },
     ],
     secondaryLinks: [
-      { text: 'Secondary link', link: '/' },
+      { text: 'U.S. Department of Health & Human Services', href="https://18f.gsa.gov"},
+       //link: '/' },
       { text: 'Another secondary link', link: '/' },
     ],
 
