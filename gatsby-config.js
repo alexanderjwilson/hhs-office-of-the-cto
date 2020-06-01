@@ -28,7 +28,7 @@ module.exports = {
       },
     ],
     secondaryLinks: [
-      { text: 'U.S. Department of Health & Human Services', endpoint:'https://www.hhs.gov'},
+      { text: 'U.S. Department of Health & Human Services', window.location.href = 'http://www.google.com'},
        //link: '/' },
       { text: 'Another secondary link', link: '/' },
     ],
