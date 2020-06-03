@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     author: 'Foo',
-    title: `Office of the CTO`,
+    title: `Office of the Chief Technology Officer`,
     description: `Welcome to the Office of the Chief Technology Officer. We test and validate solutions to solve challenging problems in the delivery of health and human services. Located in the Immediate Office of the Secretary, the Office of the CTO is also tasked with promoting innovation across the entire department.`,
     navigation: [
       {
