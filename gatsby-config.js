@@ -19,11 +19,31 @@ module.exports = {
       //  ],
       //},
       {
-        title: 'Initiatives',
+        title: 'Innovation and Partnerships',
         items: [
-          { text: 'Innovation and Partnerships', link: '/' },
-          { text: 'Data Optimization', link: '/' },
-          { text: 'Digital Services', link: '/' },
+          { text: 'KidneyX', link: '/' },
+          { text: 'Lyme Innovation', link: '/' },
+          { text: 'PreventionX', link: '/' },
+          { text: 'Ignite Accelerator', link: '/' },
+          { text: 'Open Innovation', link: '/' },
+          { text: 'Innovation "Tours of Duty"', link: '/' },
+          { text: 'Innovation/Demo/Startup Days', link: '/' },
+        ],
+      },
+      {
+        title: 'Data Optimization',
+        items: [
+          { text: 'ReImagine Data Insights Initiative', link: '/' },
+          { text: 'The HHS Data Science CoLab', link: '/' },
+          { text: 'HealthData.gov', link: '/' },
+        ],
+      },
+      {
+        title: 'Digital Services',
+        items: [
+          { text: 'Health+', link: '/' },
+          { text: 'Indian Health Service Health IT Modernization', link: '/' },
+          { text: 'Immunization Gateway', link: '/' },
         ],
       },
     ],
