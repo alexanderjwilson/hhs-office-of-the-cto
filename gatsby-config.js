@@ -8,22 +8,22 @@ module.exports = {
         items: [{ text: 'Home', link: '/' }],
       },
       {
-        items: [{ text: 'About', link: '/document' }],
+        items: [{ text: 'About', link: '/document-with-sidenav' }],
       },
       {
         items: [{ text: 'Blog', link: '/blog' }],
       },
+      //{
+      //  items: [
+      //   { text: 'Initiatives', link: '/document-with-sidenav' },
+      //  ],
+      //},
       {
+        title: 'Initiatives',
         items: [
-          { text: 'Initiatives', link: '/document-with-sidenav' },
-        ],
-      },
-      {
-        title: 'Document submenu',
-        items: [
-          { text: 'Navigation link', link: '/' },
-          { text: 'Navigation link', link: '/' },
-          { text: 'Navigation link', link: '/' },
+          { text: 'Innovation and Partnerships', link: '/' },
+          { text: 'Data Optimization', link: '/' },
+          { text: 'Digital Services', link: '/' },
         ],
       },
     ],
